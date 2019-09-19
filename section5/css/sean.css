@@ -37,7 +37,7 @@ hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 a {
@@ -80,12 +80,23 @@ a:hover {
 }
 .profile {
 	width: 100%;
-	margin: 0 auto;
+  margin: 0 auto;
+  text-align: center;
 }
+.profile h2 {
+  float: right; margin-top: -2%; margin-right: -3%;
+  background-size: 0 0;
+  }
 .profile > img {
 	width: 8%;
 	float: right;
-	margin-left: 4%;
+  margin: 0 10% 0 1%;
+  border: 5px solid rgba(248, 146, 11, 0.7);
+  border-radius: 50%;
+}
+.profile p {
+  max-width: 60%;
+  margin: 0 auto;
 }
 .intro {
 	width: 30%;
@@ -105,18 +116,24 @@ a:hover {
 .top-cloud {
   position: absolute;
 	right:  300px;
-	top: 40px;
+  top: 20px;
+  opacity: .7;
 }
 
 .bottom-cloud {
   position: absolute;
 	left: 250px;
-	bottom: 300px;
+  bottom: 300px;
+  opacity:.8;
 }
 .code-img {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+.code-img:hover {
+  transform: rotate(30deg);
+  transition: all .5s ease-in-out;
 }
 
 /*
@@ -134,6 +151,10 @@ a:hover {
   float: right;
   margin-left: 30px;
 }
+.chilli-img:hover {
+  transform: rotate(30deg);
+  transition: all .5s ease-in-out;
+}
 .btn {
 	background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -149,6 +170,8 @@ a:hover {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  position: relative;
+  top: 20px;
 }
 
 .btn:hover {
