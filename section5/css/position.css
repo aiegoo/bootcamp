@@ -1,0 +1,22 @@
+ .html, body {margin: 0; padding: 0; font-size: 16px; width: 100%; height: 100%; text-align: left; position: relative;}
+          .red {background: red; width: 20vh; height: 20vh;
+              /*  position: relative;
+               display: inline-block;
+               left: 40vh; */
+               position: absolute;
+          }
+          .blue {background: blue;width: 20vh; height: 20vh;
+               /* display: inline-block;
+               margin-left: -20vh; */
+               position: absolute;
+               left: 20vh;
+               top: 20vh
+
+          }
+          .yellow {background: yellow; width: 20vh; height: 20vh;
+               /* position: relative;
+               display: inline-block; */
+               position: absolute;
+               left: 40vh;
+               top: 40vh;
+          }
