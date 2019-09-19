@@ -8,8 +8,25 @@
 		<link rel="stylesheet" href="css/sean.css">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
 		<link rel="icon" href="favicon.ico">
+		<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+		<script src="sean.js" defer="defer"></script>
 	</head>
 <body>
+<div id="modal-bg"></div>
+<div id="modal-wrap">
+	<div id="modal-body">
+		<div class="modal-content">
+			<form action="example.com/contact.php" method="post">
+				<div><label for="name">Name</label><input type="text" id="name"></div>
+				<div><label for="E-mail">Email:</label><input type="text" id="mail"></div>
+				<div><label for="msg">Messages:</label><textarea id="msg" name="userMessage"></div>
+			</form>
+		</div>
+	</div>
+</div>
 	<!-- div.maddy>ul>li*3 -->
 <div class="top-cotainer">
 	<img src="images/cloud.png" alt="top-cloud" class="top-cloud abs">
@@ -62,10 +79,9 @@
 	<a href="http://tonyleekorea.com" class="footerlink">portfolio portal</a>
 	<p class="copyright"></p>
 </div>
+
 <script>
-function popUp() {
-	window.open("tonyresume.html", "popup", "width=500px, height=500px, scrollbars=no, menubar=no, toolbar=no, location=no, resizable=no, status=no, top=200px, left=800px");
-}
+
 </script>
 </body>
 </html>
