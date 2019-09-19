@@ -9,13 +9,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
 		<link rel="icon" href="favicon.ico">
 		<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
-		<script src="sean.js" defer="defer"></script>
+  src="scripts/jquery-3.3.1.min.js"></script>
+		<script src="scripts/sean.js" defer="defer"></script>
 	</head>
 <body>
-<div id="modal-bg"></div>
+<!-- <div id="modal-bg"></div>
 <div id="modal-wrap">
 	<div id="modal-body">
 		<div class="modal-content">
@@ -23,10 +21,11 @@
 				<div><label for="name">Name</label><input type="text" id="name"></div>
 				<div><label for="E-mail">Email:</label><input type="text" id="mail"></div>
 				<div><label for="msg">Messages:</label><textarea id="msg" name="userMessage"></div>
+			<div class="modal-button"><button type="submit"><a href="javascript: modalClose();">Close</a></button></div>		
 			</form>
 		</div>
 	</div>
-</div>
+</div> -->
 	<!-- div.maddy>ul>li*3 -->
 <div class="top-cotainer">
 	<img src="images/cloud.png" alt="top-cloud" class="top-cloud abs">
@@ -70,7 +69,7 @@
 		<br>
 		<h3>If you love hot wings as much as I do.</h3>
 		<p>Love hot wing sa much as I do? let's talk<br> about how awesome they are! We can code while we eat hot wings!</p>
-		<a href="mailto:master@tonyleekorea.com" class="btn">contact me</a>
+		<a href="javascript: modalOpen();" class="btn">contact me</a>
 	</div>
 </div>
 <div class="bottom-container">
