@@ -13,19 +13,6 @@
 		<script src="scripts/sean.js" defer="defer"></script>
 	</head>
 <body>
-<!-- <div id="modal-bg"></div>
-<div id="modal-wrap">
-	<div id="modal-body">
-		<div class="modal-content">
-			<form action="example.com/contact.php" method="post">
-				<div><label for="name">Name</label><input type="text" id="name"></div>
-				<div><label for="E-mail">Email:</label><input type="text" id="mail"></div>
-				<div><label for="msg">Messages:</label><textarea id="msg" name="userMessage"></div>
-			<div class="modal-button"><button type="submit"><a href="javascript: modalClose();">Close</a></button></div>		
-			</form>
-		</div>
-	</div>
-</div> -->
 	<!-- div.maddy>ul>li*3 -->
 <div class="top-cotainer">
 	<img src="images/cloud.png" alt="top-cloud" class="top-cloud abs">
@@ -69,7 +56,7 @@
 		<br>
 		<h3>If you love hot wings as much as I do.</h3>
 		<p>Love hot wing sa much as I do? let's talk<br> about how awesome they are! We can code while we eat hot wings!</p>
-		<a href="javascript: modalOpen();" class="btn">contact me</a>
+		<a href="javascript: modalOpen(); alert('hi');" class="btn">contact me</a>
 	</div>
 </div>
 <div class="bottom-container">
@@ -78,9 +65,19 @@
 	<a href="http://tonyleekorea.com" class="footerlink">portfolio portal</a>
 	<p class="copyright"></p>
 </div>
-
-<script>
-
-</script>
+<div id="modal-bg"></div>
+<div id="modal-wrap">
+	<div id="modal-body">
+		<div class="modal-content">
+			<form action="example.com/contact.php" method="post">
+				<div><label for="name">Name</label><input type="text" id="name"></div>
+				<div><label for="E-mail">Email:</label><input type="text" id="mail"></div>
+				<div><label for="msg">Messages:</label>
+				<textarea id="msg" name="userMessage"></div>
+			     <div class="modal-button"><button type="submit"><a href="javascript: modalClose();">Close</a></button></div>		
+			</form>
+		</div>
+	</div>
+</div>
 </body>
 </html>

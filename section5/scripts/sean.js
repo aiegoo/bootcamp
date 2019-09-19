@@ -3,7 +3,7 @@ function popUp() {
 }
 function modalOpen() {
 	$("#modal-bg").show(0);
-	$("#modal-wrap").css("display", "table-cell");
+	$("#modal-wrap").css("display", "block");
 }
 function modalClose() {
 	$("#modal-bg").hide();
