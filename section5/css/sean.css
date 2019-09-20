@@ -117,15 +117,15 @@ a:hover {
 
 .top-cloud {
   position: absolute;
-	right:  300px;
-  top: 20px;
+	right:  20%;
+  top: 1%;
   opacity: .7;
 }
 
 .bottom-cloud {
   position: absolute;
-	left: 250px;
-  bottom: 300px;
+	left: 20%;
+  bottom: 70%;
   opacity:.8;
 }
 .code-img {
