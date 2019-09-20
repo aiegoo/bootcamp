@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The portfolio of Tonylee, a Web Designer based in Seoul, Korea" />
+	<meta name="keywords" content="web design, graphic design, websites, graphics, illustration, freelance, developer" />
+		<title>TonyleeKorea portfolio a minimal representation</title>
+		<link rel="stylesheet" href="css/sean.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+		<link rel="icon" href="favicon.ico">
+		<script
+  src="scripts/jquery-3.3.1.min.js"></script>
+		<script src="scripts/sean.js" defer="defer"></script>
+	</head>
+<body style="position: relative;">
+	<!-- div.maddy>ul>li*3 -->
+<div class="top-cotainer">
+	<img src="images/cloud.png" alt="top-cloud" class="top-cloud abs">
+	<div class="title-text">
+		<h1>I'm Tonyleekorea</h1>
+		<h2>a <span class="pro">pro</span>grammer</h2>
+	</div>
+	<img class="bottom-cloud abs" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+</div>	
+<hr>
+<div class="middle-container">
+	<div class="profile">
+		<img src="images/tony.png" alt="x6logo">
+		<h2>Hello 🌫</h2>
+		<p>
+			I am a farmer and Web developer,
+			based in Seoul, Korea. I love to create a minimal site.
+			I also love to bake and brew my own wine.
+		</p>
+	</div>
+	<hr>
+	<div class="skills">
+		<h2>My Skills</h2>
+		<div class="skill-row clear">
+			<div><img src="images/computer.png" alt="content not available" class="code-img img"></div>
+			<h3><i class="underlined">Design &amp; Development</i></h3>
+			<p>I started learning to code when I was
+			53 years old because I wanted to clear my deck and put a landmark in my life's journey.  Over time, I have gained a wealth of experience designing and devloping mobile and web applications.
+			</p>
+		</div>
+		<div class="skill-row clear">
+			<div><img src="images/chillies.png" alt="chillies" class="chilli-img img"></div>
+			<h3>Hot Wings Challenge</h3>
+			<p>But my best skill is actually in eating <br>hot wings. I am the undisputed king <br>of hot wing challenges. Ghost Peppers <br>and Carlina Reapers are my favorite snacks.</p>
+		</div>
+	</div>
+	<hr>
+	<div class="contact-me">
+		<h2>Get In Touch</h2>
+		<br>
+		<h3>If you love hot wings as much as I do.</h3>
+		<p>Love hot wing sa much as I do? let's talk<br> about how awesome they are! We can code while we eat hot wings!</p>
+		<div><a href="javascript: modalOpen();" class="btn">contact me</a></div>
+	</div>
+</div>
+<div class="bottom-container">
+	<a href="javascript: popUp();" class="footerlink">view my resume</a>
+	<a href="http://pf1.tonyleekorea.com" class="footerlink">dynamic resume</a>
+	<a href="http://tonyleekorea.com" class="footerlink">portfolio portal</a>
+	<p class="copyright"></p>
+</div>
+<div id="modal-bg"></div>
+<div id="modal-wrap">
+	<div id="modal-body">
+		<div class="modal-content">
+			<form action="" method="submit">
+				<div><label for="name">Name</label><input type="text" id="name"></div>
+				<div><label for="E-mail">Email:</label><input type="text" id="mail"></div>
+				<div><label for="messages">Messages:</label>
+				<textarea id="messages" name="userMessage"></textarea></div>
+			     <div class="modal-button"><button type="submit"><a href="javascript: modalClose();">Close</a></button></div>		
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
